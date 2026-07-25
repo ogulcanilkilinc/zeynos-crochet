@@ -349,7 +349,7 @@ function initProductFilters() {
   if (!filterRoot) return;
 
   const dict = TRANSLATIONS[currentLang];
-  const categories = ['all', 'amigurumi', 'giyim', 'cantaCuzdan', 'sacAksesuar', 'anahtarlik', 'punch', 'dantel', 'wishlist'];
+  const categories = ['all', 'amigurumi', 'giyim', 'cantaCuzdan', 'sacAksesuar', 'anahtarlik', 'punch', 'dantel'];
 
   filterRoot.innerHTML = categories.map(cat => {
     const labelKey = 'filter' + cat.charAt(0).toUpperCase() + cat.slice(1);
@@ -427,9 +427,6 @@ function renderProductsGrid() {
         <div class="card product-card" style="animation-delay: ${index * 100}ms">
           <div class="card-image-wrapper" onclick="window.location.href='products.html?slug=${p.slug}'" style="cursor: pointer;">
             <img class="card-image" src="${p.image}" alt="${p.name[currentLang]}">
-            <button class="wishlist-btn ${isWished ? 'wished' : ''}" onclick="event.preventDefault(); event.stopPropagation(); toggleFavorite('${p.id}', this)" aria-label="Add to Wishlist">
-              ${isWished ? '❤️' : '🤍'}
-            </button>
             <div class="product-card-overlay">
               <a href="products.html?slug=${p.slug}" class="btn btn-primary btn-sm">${dict.products.viewDetails}</a>
             </div>
