@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ogulcanilkilinc.github.io/zeynos-crochet/sitemap.xml
