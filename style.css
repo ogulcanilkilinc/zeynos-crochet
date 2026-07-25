@@ -1186,24 +1186,34 @@ img {
 /* --- Filter Bar --- */
 .filter-bar {
   display: flex;
+  gap: 8px;
+  flex-wrap: nowrap;
   align-items: center;
-  gap: var(--spacing-sm);
-  margin-bottom: var(--spacing-2xl);
-  flex-wrap: wrap;
-  justify-content: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  width: 100%;
+  padding-bottom: 4px;
+}
+
+.filter-bar::-webkit-scrollbar {
+  display: none;
 }
 
 .filter-btn {
-  padding: 0.5rem 1.2rem;
-  border: 2px solid var(--color-border);
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--color-border);
   background: var(--color-bg);
   border-radius: var(--radius-full);
-  font-size: 0.9rem;
+  font-size: 0.84rem;
   font-weight: 500;
   color: var(--color-text-light);
   cursor: pointer;
   transition: all var(--transition-fast);
   font-family: var(--font-body);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .filter-btn:hover {

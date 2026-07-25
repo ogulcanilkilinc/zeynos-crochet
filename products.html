@@ -37,15 +37,15 @@
             </div>
 
             <!-- Product search and filtering tools -->
-            <div class="products-controls" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-2xl); flex-wrap: wrap; gap: 20px;">
-                <!-- Filters root -->
-                <div class="filter-bar" id="product-filters-root" style="margin-bottom: 0;"></div>
+            <div class="products-controls" style="display: flex; flex-direction: column; gap: 15px; margin-bottom: var(--spacing-2xl);">
+                <!-- Filters root (Single horizontal row) -->
+                <div class="filter-bar" id="product-filters-root" style="margin-bottom: 0; justify-content: flex-start;"></div>
                 
                 <!-- Search and Sort container -->
-                <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+                <div style="display: flex; justify-content: space-between; gap: 15px; flex-wrap: wrap; align-items: center; width: 100%;">
                     <!-- Sort selection -->
                     <div class="sort-bar">
-                        <select id="product-sort-select" onchange="handleSort(event)" style="padding: 10px 15px; border: 1px solid var(--color-border); border-radius: var(--radius-md); font-family: var(--font-body); font-size: 0.95rem; outline: none; background-color: #fff; cursor: pointer; color: var(--color-text);">
+                        <select id="product-sort-select" onchange="handleSort(event)" style="padding: 8px 14px; border: 1px solid var(--color-border); border-radius: var(--radius-md); font-family: var(--font-body); font-size: 0.9rem; outline: none; background-color: #fff; cursor: pointer; color: var(--color-text);">
                             <option value="default" data-i18n="sort.default">Sıralama Seçin</option>
                             <option value="price-asc" data-i18n="sort.priceAsc">Fiyat: Düşükten Yükseğe</option>
                             <option value="price-desc" data-i18n="sort.priceDesc">Fiyat: Yüksekten Düşüğe</option>
@@ -55,7 +55,7 @@
                     
                     <!-- Search bar -->
                     <div class="search-bar" style="position: relative;">
-                        <input type="text" id="product-search-input" oninput="handleSearch(event)" placeholder="Ürün ara..." data-i18n="common.search" style="padding: 10px 15px; border: 1px solid var(--color-border); border-radius: var(--radius-md); font-family: var(--font-body); font-size: 0.95rem; width: 200px; outline: none; background-color: #fff;">
+                        <input type="text" id="product-search-input" oninput="handleSearch(event)" placeholder="Ürün ara..." data-i18n="common.search" style="padding: 8px 14px; border: 1px solid var(--color-border); border-radius: var(--radius-md); font-family: var(--font-body); font-size: 0.9rem; width: 220px; outline: none; background-color: #fff;">
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@
     <div id="footer-root"></div>
 
     <!-- Scripts -->
-    <script src="data.js?v=2.0"></script>
-    <script src="app.js?v=2.0"></script>
+    <script src="data.js?v=3.0"></script>
+    <script src="app.js?v=3.0"></script>
 </body>
 </html>
