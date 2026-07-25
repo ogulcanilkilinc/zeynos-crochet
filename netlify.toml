@@ -1,9 +1,10 @@
 [build]
   publish = "."
-  command = ""
+  command = "echo 'Static HTML site build successful'"
 
 [build.environment]
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
+  DISABLE_NEXTJS_PLUGIN = "true"
 
 [[headers]]
   for = "/*"
