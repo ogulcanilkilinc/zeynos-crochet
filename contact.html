@@ -38,9 +38,10 @@
             <div class="contact-layout" style="display: grid; grid-template-columns: 1.2fr 1fr; gap: var(--spacing-3xl); margin-top: 20px; flex-wrap: wrap;">
                 <!-- Contact Form Wrapper -->
                 <div class="contact-form-wrapper" style="background: #fff; border: 1px solid var(--color-border); padding: 30px; border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
-                    <form id="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" style="display: flex; flex-direction: column; gap: 20px;">
-                        <input type="hidden" name="form-name" value="contact">
-                        <p style="display:none"><label>Don't fill this out if you're human: <input name="bot-field" /></label></p>
+                    <form id="contact-form" style="display: flex; flex-direction: column; gap: 20px;">
+                        <input type="hidden" name="access_key" value="ddbb5a69-eb3a-44c2-bfef-45220ccbf26f">
+                        <input type="hidden" name="subject" value="Zeyno's Crochet - Web Sitesinden Yeni İletişim Mesajı!">
+                        <input type="hidden" name="from_name" value="Zeyno's Crochet Web Sitesi">
                         <div>
                             <label style="font-weight: 600; font-size: 0.9rem; margin-bottom: 6px; display: block;" data-i18n="contact.nameLabel">Adınız Soyadınız</label>
                             <input type="text" name="name" required style="width: 100%; padding: 12px; border: 1px solid var(--color-border); border-radius: var(--radius-md); font-family: var(--font-body); font-size: 0.95rem; outline: none; background-color: var(--color-bg);" data-i18n="contact.nameLabel" placeholder="Adınız Soyadınız">
@@ -118,7 +119,7 @@
     <div id="footer-root"></div>
 
     <!-- Scripts -->
-    <script src="data.js"></script>
-    <script src="app.js"></script>
+    <script src="data.js?v=9.0"></script>
+    <script src="app.js?v=9.0"></script>
 </body>
 </html>

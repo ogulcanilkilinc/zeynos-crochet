@@ -986,13 +986,13 @@ function initContactForm() {
 
     try {
       const formData = new FormData(form);
-      const response = await fetch('/', {
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(formData).toString()
+        body: formData
       });
+      const result = await response.json();
 
-      if (response.ok || response.status === 200) {
+      if (result.success) {
         form.reset();
         statusBox.innerHTML = `
           <div style="padding: 15px; background-color: var(--color-success-light); border: 1px solid var(--color-success); color: var(--color-success); border-radius: 8px; font-weight: 600; text-align: center;">
@@ -1000,12 +1000,12 @@ function initContactForm() {
           </div>
         `;
       } else {
-        throw new Error('Form gönderilirken bir hata oluştu.');
+        throw new Error(result.message || 'Form gönderilirken bir hata oluştu.');
       }
     } catch (err) {
       statusBox.innerHTML = `
         <div style="padding: 15px; background-color: rgba(220, 53, 69, 0.1); border: 1px solid #dc3545; color: #dc3545; border-radius: 8px; font-weight: 600; text-align: center;">
-          ${dict.contact.errorMessage}
+          ${dict.contact.errorMessage} (${err.message})
         </div>
       `;
     } finally {
