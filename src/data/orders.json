@@ -1,0 +1,92 @@
+[
+  {
+    "id": "order-001",
+    "orderNumber": "ZC-2024-001",
+    "customerName": "Elif Y.",
+    "product": "Amigurumi Ayıcık",
+    "status": "shipped",
+    "statusHistory": [
+      {
+        "status": "received",
+        "date": "2024-06-10T10:30:00Z",
+        "note": {
+          "tr": "Siparişiniz alındı, teşekkür ederiz!",
+          "en": "Your order has been received, thank you!"
+        }
+      },
+      {
+        "status": "preparing",
+        "date": "2024-06-11T09:00:00Z",
+        "note": {
+          "tr": "Ürününüz özenle hazırlanmaya başlandı. 🧶",
+          "en": "Your product has started being carefully crafted. 🧶"
+        }
+      },
+      {
+        "status": "completed",
+        "date": "2024-06-15T14:00:00Z",
+        "note": {
+          "tr": "Ürününüz tamamlandı ve paketlendi.",
+          "en": "Your product has been completed and packaged."
+        }
+      },
+      {
+        "status": "shipped",
+        "date": "2024-06-16T11:00:00Z",
+        "note": {
+          "tr": "Kargoya verildi! Takip numaranızla kargonuzu izleyebilirsiniz.",
+          "en": "Shipped! You can track your package with the tracking number."
+        }
+      }
+    ],
+    "createdAt": "2024-06-10T10:30:00Z",
+    "estimatedDelivery": "2024-06-19",
+    "trackingNumber": "TR1234567890"
+  },
+  {
+    "id": "order-002",
+    "orderNumber": "ZC-2024-002",
+    "customerName": "Mehmet A.",
+    "product": "Bebek Battaniyesi",
+    "status": "preparing",
+    "statusHistory": [
+      {
+        "status": "received",
+        "date": "2024-06-20T15:00:00Z",
+        "note": {
+          "tr": "Siparişiniz alındı, teşekkür ederiz!",
+          "en": "Your order has been received, thank you!"
+        }
+      },
+      {
+        "status": "preparing",
+        "date": "2024-06-21T10:00:00Z",
+        "note": {
+          "tr": "Battaniyeniz özel olarak örülmeye başlandı. Tahmini 5-7 iş günü içinde hazır olacaktır.",
+          "en": "Your blanket has started being specially knitted. Estimated to be ready within 5-7 business days."
+        }
+      }
+    ],
+    "createdAt": "2024-06-20T15:00:00Z",
+    "estimatedDelivery": "2024-06-30"
+  },
+  {
+    "id": "order-003",
+    "orderNumber": "ZC-2024-003",
+    "customerName": "Selin A.",
+    "product": "Tığ İşi Çanta",
+    "status": "received",
+    "statusHistory": [
+      {
+        "status": "received",
+        "date": "2024-06-28T09:15:00Z",
+        "note": {
+          "tr": "Siparişiniz başarıyla alındı. En kısa sürede hazırlanmaya başlanacaktır.",
+          "en": "Your order has been successfully received. It will start being prepared as soon as possible."
+        }
+      }
+    ],
+    "createdAt": "2024-06-28T09:15:00Z",
+    "estimatedDelivery": "2024-07-08"
+  }
+]

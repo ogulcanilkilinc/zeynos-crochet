@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özel Sipariş Sihirbazı | Zeyno's Crochet</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+</head>
+<body>
+
+    <!-- Header Root -->
+    <div id="header-root"></div>
+
+    <section class="page-section" style="padding-top: calc(var(--header-height) + var(--spacing-xl)); padding-bottom: var(--spacing-3xl);">
+        <div class="container" style="max-width: 800px;">
+            <div class="page-header" style="text-align: center; margin-bottom: var(--spacing-3xl);">
+                <h1 class="page-title font-playfair" data-i18n="customOrder">Özel Sipariş Sihirbazı</h1>
+                <p class="page-subtitle" data-i18n="contact.subtitle">Kendi el emeği tasarımınızı oluşturun ve fiyat teklifi alın.</p>
+            </div>
+
+            <!-- Custom Order Wizard Root -->
+            <div id="wizard-container-root">
+                <div style="text-align: center; padding: 40px; color: var(--color-text-muted);" data-i18n="common.loading">Sihirbaz yükleniyor...</div>
+            </div>
+            
+            <!-- Yarn & Color Library Section -->
+            <div class="yarn-library-section" style="padding-top: var(--spacing-xl); border-top: 1px solid var(--color-border-light); margin-top: 50px;">
+                <div style="text-align: center; margin-bottom: 30px;">
+                    <h2 class="font-playfair" style="font-size: 1.8rem; color: var(--color-text);" data-i18n="yarnLib.title">İpliklerimiz & Renk Kartelası</h2>
+                    <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-top: 8px;" data-i18n="yarnLib.subtitle">Tasarımlarınızda kullanabileceğiniz sağlıklı ve anti-alerjik yumak seçenekleri</p>
+                </div>
+                
+                <!-- Yarn Selector Tabs -->
+                <div class="yarn-tabs" id="yarn-tabs-root" style="display: flex; gap: 10px; justify-content: center; margin-bottom: 30px; flex-wrap: wrap;"></div>
+                
+                <!-- Active Yarn Display Card -->
+                <div id="active-yarn-root"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Root -->
+    <div id="footer-root"></div>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

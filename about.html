@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımda | Zeyno's Crochet</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+</head>
+<body>
+
+    <!-- Header Root -->
+    <div id="header-root"></div>
+
+    <section class="page-section" style="padding-top: calc(var(--header-height) + var(--spacing-xl));">
+        <div class="container">
+            <div class="page-header" style="text-align: center; margin-bottom: var(--spacing-3xl);">
+                <h1 class="page-title font-playfair" data-i18n="about.title">Hakkımda</h1>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1.2fr; gap: var(--spacing-3xl); align-items: center; margin-top: 20px; flex-wrap: wrap;">
+                <div>
+                    <!-- Beautiful profile placeholder image from Unsplash -->
+                    <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=600&q=80" alt="Zeynep" style="width: 100%; border-radius: var(--radius-lg); box-shadow: var(--shadow-lg); border: 1px solid var(--color-border);">
+                </div>
+                <div style="display: flex; flex-direction: column; gap: var(--spacing-lg);">
+                    <h2 class="font-playfair" style="font-size: 2.2rem; color: var(--color-primary); margin-bottom: 5px;" data-i18n="about.heading">İlmeğin Sanata Dönüştüğü Yer</h2>
+                    <p class="body-lg" style="line-height: 1.8; color: var(--color-text-light); text-align: justify;" data-i18n="about.subtitle">
+                        Zeyno's Crochet, 15 yılı aşkın örgü tecrübemizi modern estetik anlayışıyla buluşturan butik bir el emeği atölyesidir.<br><br>Bizim için örgü; sadece bir iplik ve tığ birleşimi değil, tamamen kişiye özel kılınabilen yaşayan bir sanattır. Yılların kazandırdığı teknik altyapı ve desen uzmanlığımız sayesinde, <strong>beğendiğiniz herhangi bir örneği, istediğiniz renk, iplik türü ve ölçülerde birebir kalitede hayata geçiriyoruz.</strong><br><br>Fabrikasyon üretimin tekdüzeliğinden uzak, sağlığa zararsız %100 organik ve anti-alerjik malzemelerle hazırladığımız her ürün; hayatınıza sıcak bir dokunuş ve sevdiklerinize ömür boyu saklanacak anlamlı bir anı bırakmak için özenle dokunmaktadır.
+                    </p>
+                    <div style="margin-top: var(--spacing-md); display: flex; gap: var(--spacing-md); flex-wrap: wrap;">
+                        <a href="custom-order.html" class="btn btn-primary btn-lg" data-i18n="nav.customOrder">Özel Sipariş Oluştur</a>
+                        <a href="products.html" class="btn btn-outline btn-lg" data-i18n="hero.cta">Ürünleri Keşfet</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Root -->
+    <div id="footer-root"></div>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

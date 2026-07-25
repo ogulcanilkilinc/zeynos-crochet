@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "portfolio": "Portfolyo",
+    "products": "Ürünler",
+    "about": "Hakkımda",
+    "contact": "İletişim",
+    "testimonials": "Müşteri Yorumları",
+    "orderTracking": "Sipariş Takibi"
+  },
+  "hero": {
+    "title": "El Emeği, Göz Nuru",
+    "subtitle": "Zeynep'in elleriyle, sevgiyle örülen el yapımı örgü ve tığ işi ürünler. Her ilmek bir hikâye, her ürün bir sanat eseri.",
+    "cta": "Ürünleri Keşfet",
+    "ctaSecondary": "WhatsApp ile İletişim"
+  },
+  "stats": {
+    "products": "Ürün",
+    "happyCustomers": "Mutlu Müşteri",
+    "yearsExperience": "Yıllık Deneyim",
+    "handmade": "El Yapımı"
+  },
+  "portfolio": {
+    "title": "Portfolyo",
+    "subtitle": "Şimdiye kadar tamamladığım özel çalışmalardan bir seçki. Her biri özenle ve sevgiyle hazırlandı.",
+    "filterAll": "Tümü",
+    "filterKnitting": "Örgü",
+    "filterCrochet": "Tığ İşi",
+    "filterAmigurumi": "Amigurumi",
+    "filterAccessory": "Aksesuar"
+  },
+  "products": {
+    "title": "Ürünler",
+    "subtitle": "El yapımı, özenle hazırlanmış örgü ve tığ işi ürünlerimizi keşfedin.",
+    "filterAll": "Tümü",
+    "filterKnitting": "Örgü",
+    "filterCrochet": "Tığ İşi",
+    "filterAmigurumi": "Amigurumi",
+    "filterAccessory": "Aksesuar",
+    "inStock": "Stokta",
+    "lowStock": "Son Birkaç Ürün",
+    "outOfStock": "Tükendi",
+    "orderViaWhatsApp": "WhatsApp ile Sipariş Ver",
+    "viewDetails": "Detayları Gör",
+    "price": "Fiyat",
+    "materials": "Malzemeler",
+    "dimensions": "Boyutlar",
+    "relatedProducts": "Benzer Ürünler",
+    "addToFavorites": "Favorilere Ekle"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "subtitle": "Merhaba, ben Zeynep! Küçük yaşlardan beri örgü ve tığ işi ile iç içe büyüdüm. Annemden öğrendiğim bu güzel sanatı, modern tasarımlarla birleştirerek sizlere özel, el yapımı ürünler sunuyorum. Her ilmeğe sevgimi katıyor, her ürünü sizin için özenle hazırlıyorum."
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Özel sipariş, fiyat bilgisi veya herhangi bir sorunuz için benimle iletişime geçebilirsiniz.",
+    "nameLabel": "Adınız Soyadınız",
+    "emailLabel": "E-posta Adresiniz",
+    "phoneLabel": "Telefon Numaranız",
+    "messageLabel": "Mesajınız",
+    "sendButton": "Mesaj Gönder",
+    "successMessage": "Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağım. 🧶",
+    "errorMessage": "Mesaj gönderilirken bir hata oluştu. Lütfen tekrar deneyin."
+  },
+  "testimonials": {
+    "title": "Müşteri Yorumları",
+    "subtitle": "Mutlu müşterilerimizin Zeyno's Crochet ürünleri hakkındaki düşünceleri."
+  },
+  "orderTracking": {
+    "title": "Sipariş Takibi",
+    "subtitle": "Sipariş numaranızı girerek siparişinizin durumunu takip edebilirsiniz.",
+    "orderNumberLabel": "Sipariş Numarası",
+    "searchButton": "Sipariş Sorgula",
+    "statuses": {
+      "received": "Sipariş Alındı",
+      "preparing": "Hazırlanıyor",
+      "completed": "Tamamlandı",
+      "shipped": "Kargoya Verildi"
+    },
+    "estimatedDelivery": "Tahmini Teslimat",
+    "trackingNumber": "Kargo Takip Numarası",
+    "noOrderFound": "Bu sipariş numarasına ait bir kayıt bulunamadı. Lütfen sipariş numaranızı kontrol edip tekrar deneyin."
+  },
+  "footer": {
+    "brand": "Zeyno's Crochet",
+    "tagline": "El emeği, göz nuru ürünlerle hayatınıza sıcaklık katıyoruz. Her ilmek sevgiyle örülür.",
+    "rights": "Tüm hakları saklıdır.",
+    "madeWithLove": "Sevgiyle yapıldı 🧶"
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "back": "Geri",
+    "next": "İleri",
+    "previous": "Önceki",
+    "seeAll": "Tümünü Gör",
+    "close": "Kapat",
+    "search": "Ara"
+  },
+  "whatsapp": {
+    "orderMessage": "Merhaba! 🧶 {productName} hakkında bilgi almak istiyorum. Fiyat: {price} TL"
+  }
+}

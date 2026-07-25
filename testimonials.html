@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Müşteri Yorumları | Zeyno's Crochet</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+</head>
+<body>
+
+    <!-- Header Root -->
+    <div id="header-root"></div>
+
+    <section class="page-section" style="padding-top: calc(var(--header-height) + var(--spacing-xl));">
+        <div class="container">
+            <div class="page-header" style="text-align: center; margin-bottom: var(--spacing-3xl);">
+                <h1 class="page-title font-playfair" data-i18n="testimonials.title">Müşteri Yorumları</h1>
+                <p class="page-subtitle" data-i18n="testimonials.subtitle">Mutlu müşterilerimizin deneyimleri</p>
+            </div>
+
+            <div class="testimonials-stats" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 50px; text-align: center;">
+                <div class="stat-card" style="background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: 25px;">
+                    <span class="stat-icon" style="font-size: 2rem;">⭐</span>
+                    <span class="stat-number" style="font-size: 2.2rem; font-weight: 800; color: var(--color-primary); display: block; margin-top: 5px;">4.8</span>
+                    <span class="stat-label" style="font-size: 0.9rem; color: var(--color-text-muted);" data-i18n="orderTracking.estimatedDelivery">Ortalama Puan</span>
+                </div>
+                <div class="stat-card" style="background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: 25px;">
+                    <span class="stat-icon" style="font-size: 2rem;">😊</span>
+                    <span class="stat-number" style="font-size: 2.2rem; font-weight: 800; color: var(--color-primary); display: block; margin-top: 5px;">200+</span>
+                    <span class="stat-label" style="font-size: 0.9rem; color: var(--color-text-muted);" data-i18n="stats.happyCustomers">Mutlu Müşteri</span>
+                </div>
+                <div class="stat-card" style="background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: 25px;">
+                    <span class="stat-icon" style="font-size: 2rem;">💯</span>
+                    <span class="stat-number" style="font-size: 2.2rem; font-weight: 800; color: var(--color-primary); display: block; margin-top: 5px;">98%</span>
+                    <span class="stat-label" style="font-size: 0.9rem; color: var(--color-text-muted);">Memnuniyet Oranı</span>
+                </div>
+            </div>
+
+            <!-- Dynamic slide track -->
+            <div id="testimonials-slides-root"></div>
+            <!-- Dynamic dot pagination controls -->
+            <div class="carousel-dots" id="testimonials-dots-root" style="justify-content: center; margin-top: 30px;"></div>
+            
+            <!-- Dynamic review submission form -->
+            <div id="review-form-root" style="max-width: 800px; margin: 0 auto;"></div>
+        </div>
+    </section>
+
+    <!-- Footer Root -->
+    <div id="footer-root"></div>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

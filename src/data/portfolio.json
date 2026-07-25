@@ -1,0 +1,182 @@
+[
+  {
+    "id": "port-001",
+    "title": {
+      "tr": "Pastel Rüyalar Bebek Battaniyesi",
+      "en": "Pastel Dreams Baby Blanket"
+    },
+    "description": {
+      "tr": "Yeni doğan bir bebek için özel sipariş olarak hazırlanan, pastel pembe ve beyaz tonlarında yumuşacık battaniye.",
+      "en": "A soft blanket in pastel pink and white tones, custom-made for a newborn baby."
+    },
+    "category": "knitting",
+    "images": ["/images/portfolio/portfolio-1.jpg"],
+    "completedAt": "2024-01-20",
+    "techniques": {
+      "tr": ["Şiş Örgü", "Ajur Deseni", "Fıstık Örgü"],
+      "en": ["Needle Knitting", "Lace Pattern", "Bobble Stitch"]
+    }
+  },
+  {
+    "id": "port-002",
+    "title": {
+      "tr": "Amigurumi Hayvanat Bahçesi Seti",
+      "en": "Amigurumi Zoo Set"
+    },
+    "description": {
+      "tr": "Fil, zürafa, aslan ve zebra içeren dört parçalık amigurumi hayvan seti. Bir çocuk odasına özel tasarlandı.",
+      "en": "A four-piece amigurumi animal set featuring elephant, giraffe, lion, and zebra. Specially designed for a children's room."
+    },
+    "category": "amigurumi",
+    "images": ["/images/portfolio/portfolio-2.jpg"],
+    "completedAt": "2024-02-14",
+    "techniques": {
+      "tr": ["Tığ İşi", "Amigurumi Tekniği", "Nakış Detay"],
+      "en": ["Crochet", "Amigurumi Technique", "Embroidery Detail"]
+    }
+  },
+  {
+    "id": "port-003",
+    "title": {
+      "tr": "Vintage Dantel Sehpa Örtüsü",
+      "en": "Vintage Lace Doily"
+    },
+    "description": {
+      "tr": "Klasik Türk dantel geleneğinden ilham alınarak tasarlanan zarif sehpa örtüsü. İnce tığ işi detaylarıyla göz alıcı.",
+      "en": "An elegant doily inspired by traditional Turkish lace art. Stunning with its delicate crochet details."
+    },
+    "category": "crochet",
+    "images": ["/images/portfolio/portfolio-3.jpg"],
+    "completedAt": "2024-03-08",
+    "techniques": {
+      "tr": ["İnce Tığ İşi", "Dantel Tekniği", "Yıldız Deseni"],
+      "en": ["Fine Crochet", "Lace Technique", "Star Pattern"]
+    }
+  },
+  {
+    "id": "port-004",
+    "title": {
+      "tr": "Kış Koleksiyonu Atkı-Bere Seti",
+      "en": "Winter Collection Scarf-Beanie Set"
+    },
+    "description": {
+      "tr": "Bordo ve krem tonlarında, saç örgüsü deseniyle örülmüş şık kışlık set. Hediye olarak hazırlandı.",
+      "en": "A stylish winter set knitted with cable pattern in burgundy and cream tones. Prepared as a gift."
+    },
+    "category": "accessory",
+    "images": ["/images/portfolio/portfolio-4.jpg"],
+    "completedAt": "2024-03-22",
+    "techniques": {
+      "tr": ["Şiş Örgü", "Saç Örgüsü Deseni", "Lastik Örgü"],
+      "en": ["Needle Knitting", "Cable Pattern", "Ribbed Knitting"]
+    }
+  },
+  {
+    "id": "port-005",
+    "title": {
+      "tr": "Makrome Duvar Süsü",
+      "en": "Macramé Wall Hanging"
+    },
+    "description": {
+      "tr": "Bohem tarzında, doğal pamuk iple hazırlanmış dekoratif duvar süsü. Salon duvarına özel sipariş.",
+      "en": "A bohemian-style decorative wall hanging made with natural cotton cord. Custom order for a living room wall."
+    },
+    "category": "accessory",
+    "images": ["/images/portfolio/portfolio-5.jpg"],
+    "completedAt": "2024-04-05",
+    "techniques": {
+      "tr": ["Makrome", "Düğüm Teknikleri", "Saçak Detayı"],
+      "en": ["Macramé", "Knotting Techniques", "Fringe Detail"]
+    }
+  },
+  {
+    "id": "port-006",
+    "title": {
+      "tr": "Amigurumi Unicorn",
+      "en": "Amigurumi Unicorn"
+    },
+    "description": {
+      "tr": "Gökkuşağı yeleli, pırıltılı boynuzlu büyülü amigurumi unicorn. Küçük bir kızın doğum günü hediyesi olarak tasarlandı.",
+      "en": "A magical amigurumi unicorn with a rainbow mane and sparkly horn. Designed as a birthday gift for a little girl."
+    },
+    "category": "amigurumi",
+    "images": ["/images/portfolio/portfolio-6.jpg"],
+    "completedAt": "2024-04-18",
+    "techniques": {
+      "tr": ["Tığ İşi", "Amigurumi", "Renk Geçişi"],
+      "en": ["Crochet", "Amigurumi", "Color Gradient"]
+    }
+  },
+  {
+    "id": "port-007",
+    "title": {
+      "tr": "Tığ İşi Plaj Çantası",
+      "en": "Crochet Beach Bag"
+    },
+    "description": {
+      "tr": "Yaz sezonu için hazırlanmış geniş ve dayanıklı tığ işi plaj çantası. Jüt ip ve renkli detaylarla.",
+      "en": "A spacious and durable crochet beach bag made for the summer season. With jute cord and colorful details."
+    },
+    "category": "crochet",
+    "images": ["/images/portfolio/portfolio-7.jpg"],
+    "completedAt": "2024-05-10",
+    "techniques": {
+      "tr": ["Tığ İşi", "Jüt İp Çalışması", "Deri Sap Ekleme"],
+      "en": ["Crochet", "Jute Cord Work", "Leather Strap Attachment"]
+    }
+  },
+  {
+    "id": "port-008",
+    "title": {
+      "tr": "Örgü Patchwork Koltuk Şalı",
+      "en": "Knitted Patchwork Throw Blanket"
+    },
+    "description": {
+      "tr": "Farklı renk ve desen karelerinden oluşan patchwork tarzında koltuk şalı. Sıcak sonbahar akşamları için ideal.",
+      "en": "A patchwork-style throw blanket made from squares of different colors and patterns. Ideal for warm autumn evenings."
+    },
+    "category": "knitting",
+    "images": ["/images/portfolio/portfolio-8.jpg"],
+    "completedAt": "2024-05-28",
+    "techniques": {
+      "tr": ["Şiş Örgü", "Patchwork", "Motif Birleştirme"],
+      "en": ["Needle Knitting", "Patchwork", "Motif Joining"]
+    }
+  },
+  {
+    "id": "port-009",
+    "title": {
+      "tr": "Amigurumi Çiçek Buketi",
+      "en": "Amigurumi Flower Bouquet"
+    },
+    "description": {
+      "tr": "Solmayan çiçeklerden oluşan el yapımı amigurumi buket. Gül, papatya ve lavanta ile dekoratif bir hediye.",
+      "en": "A handmade amigurumi bouquet of everlasting flowers. A decorative gift featuring roses, daisies, and lavender."
+    },
+    "category": "amigurumi",
+    "images": ["/images/portfolio/portfolio-9.jpg"],
+    "completedAt": "2024-06-12",
+    "techniques": {
+      "tr": ["Tığ İşi", "Amigurumi", "Tel Çerçeve"],
+      "en": ["Crochet", "Amigurumi", "Wire Frame"]
+    }
+  },
+  {
+    "id": "port-010",
+    "title": {
+      "tr": "Tığ İşi Bardak Altlığı Seti",
+      "en": "Crochet Coaster Set"
+    },
+    "description": {
+      "tr": "Altı adet farklı renkte, geometrik desenli tığ işi bardak altlığı seti. Mutfak ve salon için şık bir dokunuş.",
+      "en": "A set of six crochet coasters in different colors with geometric patterns. A stylish touch for kitchen and living room."
+    },
+    "category": "crochet",
+    "images": ["/images/portfolio/portfolio-10.jpg"],
+    "completedAt": "2024-06-25",
+    "techniques": {
+      "tr": ["Tığ İşi", "Geometrik Desen", "Renk Değiştirme"],
+      "en": ["Crochet", "Geometric Pattern", "Color Changing"]
+    }
+  }
+]

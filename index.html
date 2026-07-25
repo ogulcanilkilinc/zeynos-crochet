@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeyno's Crochet | El Yapımı Örgü & Tığ İşi</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Root -->
+    <div id="header-root"></div>
+
+    <!-- Hero Banner Image -->
+    <section class="hero-image-banner" style="margin-top: var(--header-height); background: #FAF5F0; padding: 0; position: relative; overflow: hidden;">
+        <div style="width: 100%; position: relative; line-height: 0;">
+            <img src="./public/images/hero.svg" style="width: 100%; height: auto; display: block;" alt="Zeyno's Crochet">
+            <a href="products.html" style="position: absolute; left: 10%; top: 72%; width: 18%; height: 9%; border-radius: 30px; cursor: pointer; z-index: 10;" title="Alışverişe Başla"></a>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="section section-alt">
+        <div class="container" style="max-width: 1400px;">
+            <div class="section-header" style="text-align: center; margin-bottom: var(--spacing-3xl);">
+                <h2 class="heading-lg" data-i18n="products.featuredTitle">Öne Çıkan Ürünler</h2>
+                <p class="body-lg text-muted" style="margin-top: 10px;" data-i18n="products.featuredSubtitle">En beğenilen el yapımı ürünlerimiz</p>
+            </div>
+
+            <!-- Products root inserted dynamically -->
+            <div class="product-grid featured-product-grid" id="featured-products-root"></div>
+
+            <div style="text-align: center; margin-top: var(--spacing-2xl);">
+                <a href="products.html" class="btn btn-outline btn-lg">
+                    <span data-i18n="common.seeAll">Tümünü Gör</span> →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Counter -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-icon">💖</span>
+                    <div class="stat-number">%100</div>
+                    <div class="stat-label" data-i18n="stats.handmade">El Emeği & Özen</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-icon">🧶</span>
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label" data-i18n="stats.products">Zengin Ürün Çeşidi</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-icon">⏳</span>
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label" data-i18n="stats.yearsExperience">Yıllık Örgü Deneyimi</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-icon">🎨</span>
+                    <div class="stat-number">1'e 1</div>
+                    <div class="stat-label" data-i18n="stats.customOrder">Kişiye Özel Tasarım</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Yarn Care Guide Section -->
+    <section class="section" style="background-color: var(--color-bg-soft);">
+        <div class="container">
+            <div class="section-header" style="text-align: center; margin-bottom: var(--spacing-3xl);">
+                <h2 class="heading-lg font-playfair" data-i18n="care.title">Örgü Ürün Bakım Kılavuzu</h2>
+                <p class="body-lg text-muted" style="margin-top: 10px;" data-i18n="care.subtitle">El emeği örgülerinizi uzun yıllar ilk günkü gibi korumanız için bakım önerileri</p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px;">
+                <!-- Wash -->
+                <div class="card" style="padding: 30px; background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-lg); text-align: center; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <span style="font-size: 3rem; display: block; margin-bottom: 20px;">🧼</span>
+                        <h3 class="font-playfair" style="font-size: 1.35rem; margin-bottom: 12px; color: var(--color-text);" data-i18n="care.washTitle">Nasıl Yıkanmalı?</h3>
+                        <p style="font-size: 0.95rem; line-height: 1.7; color: var(--color-text-light);" data-i18n="care.washText">Ürünlerinizi elde, ılık suda (maksimum 30°C) ve bebek şampuanı veya hassas deterjan kullanarak yıkayınız. Çamaşır makinesinde yıkamayınız.</p>
+                    </div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 20px;">
+                        <span style="background: rgba(180, 140, 100, 0.1); color: var(--color-primary); font-size: 0.8rem; padding: 4px 10px; border-radius: 12px; font-weight: 600;">🧼 30°C Elde Yıkama</span>
+                        <span style="background: rgba(180, 140, 100, 0.1); color: var(--color-primary); font-size: 0.8rem; padding: 4px 10px; border-radius: 12px; font-weight: 600;">🧴 Hassas Deterjan</span>
+                    </div>
+                </div>
+                <!-- Dry -->
+                <div class="card" style="padding: 30px; background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-lg); text-align: center; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <span style="font-size: 3rem; display: block; margin-bottom: 20px;">☀️</span>
+                        <h3 class="font-playfair" style="font-size: 1.35rem; margin-bottom: 12px; color: var(--color-text);" data-i18n="care.dryTitle">Nasıl Kurutulmalı?</h3>
+                        <p style="font-size: 0.95rem; line-height: 1.7; color: var(--color-text-light);" data-i18n="care.dryText">Yıkama sonrası ürünü sıkmayınız veya asarak kurutmayınız. Havlu üzerine sererek, gölgede, düz bir alanda kendi kendine kurumasını sağlayınız.</p>
+                    </div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 20px;">
+                        <span style="background: rgba(180, 140, 100, 0.1); color: var(--color-primary); font-size: 0.8rem; padding: 4px 10px; border-radius: 12px; font-weight: 600;">👕 Sererek Kurutun</span>
+                        <span style="background: rgba(180, 140, 100, 0.1); color: var(--color-primary); font-size: 0.8rem; padding: 4px 10px; border-radius: 12px; font-weight: 600;">🚫🌀 Kurutma Yapmayın</span>
+                    </div>
+                </div>
+                <!-- Iron -->
+                <div class="card" style="padding: 30px; background: #fff; border: 1px solid var(--color-border); border-radius: var(--radius-lg); text-align: center; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <span style="font-size: 3rem; display: block; margin-bottom: 20px;">💨</span>
+                        <h3 class="font-playfair" style="font-size: 1.35rem; margin-bottom: 12px; color: var(--color-text);" data-i18n="care.ironTitle">Ütü Yapılır mı?</h3>
+                        <p style="font-size: 0.95rem; line-height: 1.7; color: var(--color-text-light);" data-i18n="care.ironText">Örgü ürünlerinizi doğrudan ütülemeyiniz. Gerekirse ütüyü ürüne değdirmeden, uzaktan sadece buhar vererek kırışıklıkları giderebilirsiniz.</p>
+                    </div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 20px;">
+                        <span style="background: rgba(180, 140, 100, 0.1); color: var(--color-primary); font-size: 0.8rem; padding: 4px 10px; border-radius: 12px; font-weight: 600;">👔 Katlayarak Saklayın</span>
+                        <span style="background: rgba(180, 140, 100, 0.1); color: var(--color-primary); font-size: 0.8rem; padding: 4px 10px; border-radius: 12px; font-weight: 600;">💨 🚫 Direkt Ütü Basmayın</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Instagram Feed Section -->
+    <section class="instagram-section">
+        <div class="container">
+            <div class="instagram-header">
+                <a href="https://www.instagram.com/zeynoscrochet_/" target="_blank" rel="noopener noreferrer" class="instagram-handle">
+                    📸 @zeynoscrochet_
+                </a>
+                <p class="body-md text-muted" style="margin-top: 5px;">Bizi Instagram'da takip edin, yeni modelleri ilk siz görün!</p>
+            </div>
+            
+            <div class="instagram-grid">
+                <!-- 6 simulated posts using beautiful craft imagery -->
+                <a href="https://www.instagram.com/zeynoscrochet_/" target="_blank" rel="noopener noreferrer" class="instagram-item">
+                    <img class="instagram-img" src="public/images/portfolio/portfolio-1.jpg" alt="Zeyno's Crochet Instagram Post 1">
+                    <div class="instagram-overlay">
+                        <span class="instagram-stat">❤️ 245</span>
+                        <span class="instagram-stat">💬 12</span>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/zeynoscrochet_/" target="_blank" rel="noopener noreferrer" class="instagram-item">
+                    <img class="instagram-img" src="public/images/portfolio/portfolio-2.jpg" alt="Zeyno's Crochet Instagram Post 2">
+                    <div class="instagram-overlay">
+                        <span class="instagram-stat">❤️ 198</span>
+                        <span class="instagram-stat">💬 8</span>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/zeynoscrochet_/" target="_blank" rel="noopener noreferrer" class="instagram-item">
+                    <img class="instagram-img" src="public/images/portfolio/portfolio-3.jpg" alt="Zeyno's Crochet Instagram Post 3">
+                    <div class="instagram-overlay">
+                        <span class="instagram-stat">❤️ 312</span>
+                        <span class="instagram-stat">💬 25</span>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/zeynoscrochet_/" target="_blank" rel="noopener noreferrer" class="instagram-item">
+                    <img class="instagram-img" src="public/images/portfolio/portfolio-6.jpg" alt="Zeyno's Crochet Instagram Post 4">
+                    <div class="instagram-overlay">
+                        <span class="instagram-stat">❤️ 185</span>
+                        <span class="instagram-stat">💬 9</span>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/zeynoscrochet_/" target="_blank" rel="noopener noreferrer" class="instagram-item">
+                    <img class="instagram-img" src="public/images/portfolio/portfolio-8.jpg" alt="Zeyno's Crochet Instagram Post 5">
+                    <div class="instagram-overlay">
+                        <span class="instagram-stat">❤️ 284</span>
+                        <span class="instagram-stat">💬 18</span>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/zeynoscrochet_/" target="_blank" rel="noopener noreferrer" class="instagram-item">
+                    <img class="instagram-img" src="public/images/portfolio/portfolio-9.jpg" alt="Zeyno's Crochet Instagram Post 6">
+                    <div class="instagram-overlay">
+                        <span class="instagram-stat">❤️ 340</span>
+                        <span class="instagram-stat">💬 31</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Root -->
+    <div id="footer-root"></div>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

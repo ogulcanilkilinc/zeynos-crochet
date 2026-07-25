@@ -1,0 +1,243 @@
+[
+  {
+    "id": "prod-001",
+    "slug": "bebek-battaniyesi",
+    "name": {
+      "tr": "Bebek Battaniyesi",
+      "en": "Baby Blanket"
+    },
+    "description": {
+      "tr": "Yumuşacık pamuklu iplikle örülmüş, bebeğinizi sıcacık saracak el yapımı battaniye. Pastel tonlarında, hassas ciltlere uygun.",
+      "en": "A handmade blanket knitted with soft cotton yarn to keep your baby warm and cozy. In pastel tones, suitable for sensitive skin."
+    },
+    "price": 650,
+    "currency": "TL",
+    "category": "knitting",
+    "images": [
+      "/images/products/product-1.jpg"
+    ],
+    "inStock": true,
+    "stockCount": 5,
+    "materials": {
+      "tr": "%100 Organik Pamuk İplik",
+      "en": "100% Organic Cotton Yarn"
+    },
+    "dimensions": {
+      "tr": "80 cm x 100 cm",
+      "en": "80 cm x 100 cm"
+    },
+    "featured": true,
+    "instagramUrl": "https://instagram.com/zeynoscrochet",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "prod-002",
+    "slug": "amigurumi-ayicik",
+    "name": {
+      "tr": "Amigurumi Ayıcık",
+      "en": "Amigurumi Teddy Bear"
+    },
+    "description": {
+      "tr": "Sevimli, el yapımı amigurumi ayıcık. Güvenli dolgu malzemesi ve anti-alerjik iplikle hazırlanmıştır. Çocuklar için mükemmel bir hediye.",
+      "en": "Adorable handmade amigurumi teddy bear. Made with safe filling material and hypoallergenic yarn. A perfect gift for children."
+    },
+    "price": 350,
+    "currency": "TL",
+    "category": "amigurumi",
+    "images": [
+      "/images/products/product-2.jpg"
+    ],
+    "inStock": true,
+    "stockCount": 8,
+    "materials": {
+      "tr": "Anti-alerjik Akrilik İplik, Silikon Elyaf Dolgu",
+      "en": "Hypoallergenic Acrylic Yarn, Silicone Fiber Filling"
+    },
+    "dimensions": {
+      "tr": "25 cm boyunda",
+      "en": "25 cm tall"
+    },
+    "featured": true,
+    "createdAt": "2024-02-10"
+  },
+  {
+    "id": "prod-003",
+    "slug": "orgu-bere",
+    "name": {
+      "tr": "Örgü Bere",
+      "en": "Knitted Beanie"
+    },
+    "description": {
+      "tr": "Sıcacık yün iplikle el örgüsü bere. Kış aylarında şık ve sıcak tutacak, farklı renk seçenekleriyle.",
+      "en": "A warm hand-knitted beanie made with wool yarn. Stylish and cozy for winter days, available in various colors."
+    },
+    "price": 180,
+    "currency": "TL",
+    "category": "knitting",
+    "images": [
+      "/images/products/product-3.jpg"
+    ],
+    "inStock": true,
+    "stockCount": 12,
+    "materials": {
+      "tr": "%50 Yün, %50 Akrilik Karışım İplik",
+      "en": "50% Wool, 50% Acrylic Blend Yarn"
+    },
+    "dimensions": {
+      "tr": "Yetişkin Standart Beden",
+      "en": "Adult Standard Size"
+    },
+    "featured": false,
+    "createdAt": "2024-03-05"
+  },
+  {
+    "id": "prod-004",
+    "slug": "tig-isi-masa-ortusu",
+    "name": {
+      "tr": "Tığ İşi Masa Örtüsü",
+      "en": "Crochet Tablecloth"
+    },
+    "description": {
+      "tr": "Zarif dantel desenli tığ işi masa örtüsü. Evinize klasik bir dokunuş katacak, özenle işlenmiş detaylarıyla göz kamaştırıcı.",
+      "en": "An elegant lace-patterned crochet tablecloth. Adds a classic touch to your home with its meticulously crafted details."
+    },
+    "price": 800,
+    "currency": "TL",
+    "category": "crochet",
+    "images": [
+      "/images/products/product-4.jpg"
+    ],
+    "inStock": true,
+    "stockCount": 2,
+    "materials": {
+      "tr": "%100 Merserize Pamuk İplik",
+      "en": "100% Mercerized Cotton Yarn"
+    },
+    "dimensions": {
+      "tr": "150 cm x 200 cm",
+      "en": "150 cm x 200 cm"
+    },
+    "featured": true,
+    "createdAt": "2024-01-28"
+  },
+  {
+    "id": "prod-005",
+    "slug": "amigurumi-tavsan",
+    "name": {
+      "tr": "Amigurumi Tavşan",
+      "en": "Amigurumi Bunny"
+    },
+    "description": {
+      "tr": "Uzun kulaklı, sevimli amigurumi tavşan. Bebek odası dekorasyonu veya çocuklar için güvenli bir oyun arkadaşı.",
+      "en": "A cute amigurumi bunny with long ears. Perfect as nursery decoration or a safe playmate for children."
+    },
+    "price": 300,
+    "currency": "TL",
+    "category": "amigurumi",
+    "images": [
+      "/images/products/product-5.jpg"
+    ],
+    "inStock": true,
+    "stockCount": 6,
+    "materials": {
+      "tr": "Anti-alerjik Pamuk İplik, Güvenli Dolgu",
+      "en": "Hypoallergenic Cotton Yarn, Safe Filling"
+    },
+    "dimensions": {
+      "tr": "30 cm boyunda",
+      "en": "30 cm tall"
+    },
+    "featured": false,
+    "createdAt": "2024-04-12"
+  },
+  {
+    "id": "prod-006",
+    "slug": "orgu-atki-bere-set",
+    "name": {
+      "tr": "Örgü Atkı-Bere Set",
+      "en": "Knitted Scarf-Beanie Set"
+    },
+    "description": {
+      "tr": "Uyumlu renklerde el örgüsü atkı ve bere seti. Kışın en şık aksesuar kombinasyonu, hediye için de ideal.",
+      "en": "A hand-knitted scarf and beanie set in matching colors. The most stylish winter accessory combination, also ideal as a gift."
+    },
+    "price": 400,
+    "currency": "TL",
+    "category": "accessory",
+    "images": [
+      "/images/products/product-6.jpg"
+    ],
+    "inStock": true,
+    "stockCount": 4,
+    "materials": {
+      "tr": "Yumuşak Akrilik-Yün Karışım İplik",
+      "en": "Soft Acrylic-Wool Blend Yarn"
+    },
+    "dimensions": {
+      "tr": "Atkı: 180 cm x 25 cm, Bere: Standart Beden",
+      "en": "Scarf: 180 cm x 25 cm, Beanie: Standard Size"
+    },
+    "featured": false,
+    "createdAt": "2024-05-20"
+  },
+  {
+    "id": "prod-007",
+    "slug": "tig-isi-canta",
+    "name": {
+      "tr": "Tığ İşi Çanta",
+      "en": "Crochet Bag"
+    },
+    "description": {
+      "tr": "Şık ve dayanıklı tığ işi el çantası. Günlük kullanım için ideal boyutta, doğal renk tonlarında.",
+      "en": "A stylish and durable crochet handbag. Perfectly sized for daily use, in natural color tones."
+    },
+    "price": 450,
+    "currency": "TL",
+    "category": "crochet",
+    "images": [
+      "/images/products/product-7.jpg"
+    ],
+    "inStock": true,
+    "stockCount": 3,
+    "materials": {
+      "tr": "Makrome İplik, Ahşap Kulp",
+      "en": "Macramé Cord, Wooden Handle"
+    },
+    "dimensions": {
+      "tr": "30 cm x 25 cm x 12 cm",
+      "en": "30 cm x 25 cm x 12 cm"
+    },
+    "featured": false,
+    "createdAt": "2024-06-01"
+  },
+  {
+    "id": "prod-008",
+    "slug": "orgu-bebek-yelegi",
+    "name": {
+      "tr": "Örgü Bebek Yeleği",
+      "en": "Knitted Baby Vest"
+    },
+    "description": {
+      "tr": "Minik bebekler için yumuşacık el örgüsü yelek. Nefes alan doğal ipliklerle örülmüş, düğme detaylı.",
+      "en": "A super soft hand-knitted vest for little babies. Made with breathable natural yarns, with button details."
+    },
+    "price": 250,
+    "currency": "TL",
+    "category": "knitting",
+    "images": [
+      "/images/products/product-8.jpg"
+    ],
+    "inStock": false,
+    "stockCount": 0,
+    "materials": {
+      "tr": "%100 Bebek Pamuğu",
+      "en": "100% Baby Cotton"
+    },
+    "dimensions": {
+      "tr": "0-6 Ay Beden",
+      "en": "0-6 Months Size"
+    },
+    "featured": false,
+    "createdAt": "2024-06-15"
+  }
+]

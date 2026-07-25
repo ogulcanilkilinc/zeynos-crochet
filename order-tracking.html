@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sipariş Takibi | Zeyno's Crochet</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+</head>
+<body>
+
+    <!-- Header Root -->
+    <div id="header-root"></div>
+
+    <section class="page-section" style="padding-top: calc(var(--header-height) + var(--spacing-xl));">
+        <div class="container">
+            <div class="page-header" style="text-align: center; margin-bottom: var(--spacing-3xl);">
+                <h1 class="page-title font-playfair" data-i18n="orderTracking.title">Sipariş Takibi</h1>
+                <p class="page-subtitle" data-i18n="orderTracking.subtitle">Sipariş durumunuzu takip edin.</p>
+            </div>
+
+            <!-- Search box -->
+            <div class="order-search-box" style="max-width: 500px; margin: 0 auto 40px; background: #fff; padding: 30px; border-radius: var(--radius-lg); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm);">
+                <form id="order-search-form" style="display: flex; gap: 10px;">
+                    <div style="flex: 1;">
+                        <input type="text" id="order-number-input" placeholder="Örn: ZC-2024-001" style="width: 100%; padding: 12px 15px; border: 1px solid var(--color-border); border-radius: var(--radius-md); font-family: var(--font-body); font-size: 0.95rem; outline: none; background-color: var(--color-bg);" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-i18n="orderTracking.searchButton">Sipariş Sorgula</button>
+                </form>
+            </div>
+
+            <!-- Search results box loaded dynamically -->
+            <div id="order-result-box" style="max-width: 600px; margin: 0 auto;"></div>
+        </div>
+    </section>
+
+    <!-- Footer Root -->
+    <div id="footer-root"></div>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

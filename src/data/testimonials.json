@@ -1,0 +1,71 @@
+[
+  {
+    "id": "test-001",
+    "name": "Elif Yılmaz",
+    "avatar": "/images/avatars/avatar-1.jpg",
+    "rating": 5,
+    "comment": {
+      "tr": "Kızım için sipariş ettiğim amigurumi ayıcık harika olmuş! Zeynep Hanım'ın el işçiliği gerçekten muhteşem. Kızım elinden bırakmıyor, çok teşekkür ederim. 🧸",
+      "en": "The amigurumi teddy bear I ordered for my daughter turned out amazing! Zeynep's craftsmanship is truly magnificent. My daughter won't let go of it, thank you so much! 🧸"
+    },
+    "product": "Amigurumi Ayıcık",
+    "date": "2024-03-15"
+  },
+  {
+    "id": "test-002",
+    "name": "Ahmet Demir",
+    "avatar": "/images/avatars/avatar-2.jpg",
+    "rating": 5,
+    "comment": {
+      "tr": "Eşime hediye olarak aldığım atkı-bere seti çok kaliteli ve şık. Renk uyumu mükemmel. Zeynep Hanım çok titiz çalışıyor, kesinlikle tavsiye ederim.",
+      "en": "The scarf-beanie set I bought as a gift for my wife is very high quality and stylish. The color coordination is perfect. Zeynep works very meticulously, I absolutely recommend her."
+    },
+    "product": "Örgü Atkı-Bere Set",
+    "date": "2024-02-28"
+  },
+  {
+    "id": "test-003",
+    "name": "Ayşe Kaya",
+    "rating": 5,
+    "comment": {
+      "tr": "Bebek battaniyesi o kadar yumuşak ki bebeğim çok seviyor. Organik pamuk iplik kullanılmış, gönül rahatlığıyla kullanıyoruz. Teşekkürler Zeynep! 💛",
+      "en": "The baby blanket is so soft, my baby loves it. It's made with organic cotton yarn, we use it with peace of mind. Thank you, Zeynep! 💛"
+    },
+    "product": "Bebek Battaniyesi",
+    "date": "2024-04-10"
+  },
+  {
+    "id": "test-004",
+    "name": "Fatma Öztürk",
+    "avatar": "/images/avatars/avatar-4.jpg",
+    "rating": 4,
+    "comment": {
+      "tr": "Masa örtüsü gerçekten bir sanat eseri. Çok ince ve detaylı işçilik var. Misafirlerimiz her geldiğinde soruyor nereden aldığımızı. Harika bir ürün!",
+      "en": "The tablecloth is truly a work of art. Very fine and detailed craftsmanship. Our guests ask where we got it every time they visit. An amazing product!"
+    },
+    "product": "Tığ İşi Masa Örtüsü",
+    "date": "2024-05-02"
+  },
+  {
+    "id": "test-005",
+    "name": "Mehmet Aydın",
+    "rating": 5,
+    "comment": {
+      "tr": "Annem için özel sipariş vermiştim, anneler günü hediyesi olarak. Annem çok beğendi, duygusal bile oldu. Zeynep Hanım'ın ellerine sağlık. Herkese gönül rahatlığıyla önerebilirim. 🌸",
+      "en": "I placed a custom order for my mother as a Mother's Day gift. My mom loved it and even got emotional. Bless Zeynep's hands. I can wholeheartedly recommend her to everyone. 🌸"
+    },
+    "date": "2024-05-14"
+  },
+  {
+    "id": "test-006",
+    "name": "Selin Arslan",
+    "avatar": "/images/avatars/avatar-6.jpg",
+    "rating": 5,
+    "comment": {
+      "tr": "Tığ işi çantayı çok beğendim, hem şık hem de çok dayanıklı. Günlük kullanıyorum ve her yerde iltifat alıyorum. El emeğinin değerini bilen herkese tavsiye ederim! 👜",
+      "en": "I love the crochet bag, it's both stylish and very durable. I use it daily and get compliments everywhere. I recommend it to everyone who values handmade craftsmanship! 👜"
+    },
+    "product": "Tığ İşi Çanta",
+    "date": "2024-06-20"
+  }
+]

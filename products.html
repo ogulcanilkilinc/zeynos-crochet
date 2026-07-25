@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürünler | Zeyno's Crochet</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+</head>
+<body>
+
+    <!-- Header Root -->
+    <div id="header-root"></div>
+
+    <section class="page-section" style="padding-top: calc(var(--header-height) + var(--spacing-xl));">
+        <div class="container">
+            <div class="page-header" style="text-align: center; margin-bottom: var(--spacing-3xl);">
+                <h1 class="page-title font-playfair" data-i18n="products.title">Ürünler</h1>
+                <p class="page-subtitle" data-i18n="products.subtitle">El yapımı örgü ve tığ işi ürünlerim</p>
+            </div>
+
+            <!-- Product search and filtering tools -->
+            <div class="products-controls" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-2xl); flex-wrap: wrap; gap: 20px;">
+                <!-- Filters root -->
+                <div class="filter-bar" id="product-filters-root" style="margin-bottom: 0;"></div>
+                
+                <!-- Search and Sort container -->
+                <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
+                    <!-- Sort selection -->
+                    <div class="sort-bar">
+                        <select id="product-sort-select" onchange="handleSort(event)" style="padding: 10px 15px; border: 1px solid var(--color-border); border-radius: var(--radius-md); font-family: var(--font-body); font-size: 0.95rem; outline: none; background-color: #fff; cursor: pointer; color: var(--color-text);">
+                            <option value="default" data-i18n="sort.default">Sıralama Seçin</option>
+                            <option value="price-asc" data-i18n="sort.priceAsc">Fiyat: Düşükten Yükseğe</option>
+                            <option value="price-desc" data-i18n="sort.priceDesc">Fiyat: Yüksekten Düşüğe</option>
+                            <option value="name-asc" data-i18n="sort.nameAsc">İsim: A - Z</option>
+                        </select>
+                    </div>
+                    
+                    <!-- Search bar -->
+                    <div class="search-bar" style="position: relative;">
+                        <input type="text" id="product-search-input" oninput="handleSearch(event)" placeholder="Ürün ara..." data-i18n="common.search" style="padding: 10px 15px; border: 1px solid var(--color-border); border-radius: var(--radius-md); font-family: var(--font-body); font-size: 0.95rem; width: 200px; outline: none; background-color: #fff;">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products grid dynamic list -->
+            <div class="product-grid" id="products-grid-root"></div>
+        </div>
+    </section>
+
+    <!-- Footer Root -->
+    <div id="footer-root"></div>
+
+    <!-- Scripts -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

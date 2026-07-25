@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "products": "Products",
+    "about": "About",
+    "contact": "Contact",
+    "testimonials": "Testimonials",
+    "orderTracking": "Order Tracking"
+  },
+  "hero": {
+    "title": "Handcrafted with Love",
+    "subtitle": "Handmade knitting and crochet products, lovingly crafted by Zeynep. Every stitch tells a story, every piece is a work of art.",
+    "cta": "Explore Products",
+    "ctaSecondary": "Contact via WhatsApp"
+  },
+  "stats": {
+    "products": "Products",
+    "happyCustomers": "Happy Customers",
+    "yearsExperience": "Years Experience",
+    "handmade": "Handmade"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "A curated selection of completed works. Each one crafted with care and dedication.",
+    "filterAll": "All",
+    "filterKnitting": "Knitting",
+    "filterCrochet": "Crochet",
+    "filterAmigurumi": "Amigurumi",
+    "filterAccessory": "Accessory"
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Discover our handmade, carefully crafted knitting and crochet products.",
+    "filterAll": "All",
+    "filterKnitting": "Knitting",
+    "filterCrochet": "Crochet",
+    "filterAmigurumi": "Amigurumi",
+    "filterAccessory": "Accessory",
+    "inStock": "In Stock",
+    "lowStock": "Only a Few Left",
+    "outOfStock": "Out of Stock",
+    "orderViaWhatsApp": "Order via WhatsApp",
+    "viewDetails": "View Details",
+    "price": "Price",
+    "materials": "Materials",
+    "dimensions": "Dimensions",
+    "relatedProducts": "Related Products",
+    "addToFavorites": "Add to Favorites"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Hi, I'm Zeynep! I grew up surrounded by knitting and crochet from a young age. Combining this beautiful craft I learned from my mother with modern designs, I create special handmade products for you. I put love into every stitch and carefully prepare each piece just for you."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Feel free to reach out for custom orders, pricing, or any questions you might have.",
+    "nameLabel": "Your Full Name",
+    "emailLabel": "Your Email Address",
+    "phoneLabel": "Your Phone Number",
+    "messageLabel": "Your Message",
+    "sendButton": "Send Message",
+    "successMessage": "Your message has been sent successfully! I'll get back to you as soon as possible. 🧶",
+    "errorMessage": "An error occurred while sending your message. Please try again."
+  },
+  "testimonials": {
+    "title": "Customer Reviews",
+    "subtitle": "What our happy customers think about Zeyno's Crochet products."
+  },
+  "orderTracking": {
+    "title": "Order Tracking",
+    "subtitle": "Enter your order number to track the status of your order.",
+    "orderNumberLabel": "Order Number",
+    "searchButton": "Track Order",
+    "statuses": {
+      "received": "Order Received",
+      "preparing": "In Progress",
+      "completed": "Completed",
+      "shipped": "Shipped"
+    },
+    "estimatedDelivery": "Estimated Delivery",
+    "trackingNumber": "Tracking Number",
+    "noOrderFound": "No order found with this order number. Please check your order number and try again."
+  },
+  "footer": {
+    "brand": "Zeyno's Crochet",
+    "tagline": "Adding warmth to your life with handcrafted products. Every stitch is knitted with love.",
+    "rights": "All rights reserved.",
+    "madeWithLove": "Made with love 🧶"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "seeAll": "See All",
+    "close": "Close",
+    "search": "Search"
+  },
+  "whatsapp": {
+    "orderMessage": "Hello! 🧶 I'd like to get information about {productName}. Price: {price} TL"
+  }
+}
