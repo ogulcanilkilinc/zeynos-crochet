@@ -4,8 +4,8 @@ const PRODUCTS = [
     "id": "prod-001",
     "slug": "bebek-battaniyesi",
     "name": {
-      "tr": "Bebek Battaniyesi",
-      "en": "Baby Blanket"
+      "tr": "Bebek Battaniyesi & Hırka Seti",
+      "en": "Baby Blanket & Vest Set"
     },
     "description": {
       "tr": "Yumuşacık pamuklu iplikle örülmüş, bebeğinizi sıcacık saracak el yapımı battaniye. Pastel tonlarında, hassas ciltlere uygun.",
@@ -13,7 +13,7 @@ const PRODUCTS = [
     },
     "price": 650,
     "currency": "TL",
-    "category": "knitting",
+    "category": "giyim",
     "image": "public/images/products/product-1.jpg",
     "inStock": true,
     "stockCount": 5,
@@ -56,45 +56,45 @@ const PRODUCTS = [
   },
   {
     "id": "prod-003",
-    "slug": "orgu-bere",
+    "slug": "punch-nakisli-kirlent",
     "name": {
-      "tr": "Örgü Bere",
-      "en": "Knitted Beanie"
+      "tr": "Punch Nakışlı Kırlent",
+      "en": "Punch Needle Pillow Cover"
     },
     "description": {
-      "tr": "Sıcacık yün iplikle el örgüsü bere. Kış aylarında şık ve sıcak tutacak, farklı renk seçenekleriyle.",
-      "en": "A warm hand-knitted beanie made with wool yarn. Stylish and cozy for winter days, available in various colors."
+      "tr": "El emeği punch nakışı tekniğiyle işlenmiş dekoratif yastık kılıfı. Evinize renk ve özgün bir hava katar.",
+      "en": "Decorative pillow cover embroidered with handmade punch needle technique."
     },
-    "price": 180,
+    "price": 280,
     "currency": "TL",
-    "category": "knitting",
+    "category": "punch",
     "image": "public/images/products/product-3.jpg",
     "inStock": true,
-    "stockCount": 12,
+    "stockCount": 6,
     "materials": {
-      "tr": "%50 Yün, %50 Akrilik Karışım İplik",
-      "en": "50% Wool, 50% Acrylic Blend Yarn"
+      "tr": "Keten Kumaş, Punch İpliği",
+      "en": "Linen Fabric, Punch Needle Thread"
     },
     "dimensions": {
-      "tr": "Yetişkin Standart Beden",
-      "en": "Adult Standard Size"
+      "tr": "40 cm x 40 cm",
+      "en": "40 cm x 40 cm"
     },
-    "featured": false
+    "featured": true
   },
   {
     "id": "prod-004",
-    "slug": "tig-isi-masa-ortusu",
+    "slug": "dantel-masa-ortusu",
     "name": {
-      "tr": "Tığ İşi Masa Örtüsü",
-      "en": "Crochet Tablecloth"
+      "tr": "Zarif Dantel Masa Örtüsü",
+      "en": "Crochet Lace Tablecloth"
     },
     "description": {
-      "tr": "Zarif dantel desenli tığ işi masa örtüsü. Evinize klasik bir dokunuş katacak, özenle işlenmiş detayleriyle göz kamaştırıcı.",
+      "tr": "Zarif dantel desenli tığ işi masa örtüsü. Evinize klasik bir dokunuş katacak, özenle işlenmiş detaylarıyla göz kamaştırıcı.",
       "en": "An elegant lace-patterned crochet tablecloth. Adds a classic touch to your home with its meticulously crafted details."
     },
     "price": 800,
     "currency": "TL",
-    "category": "crochet",
+    "category": "dantel",
     "image": "public/images/products/product-4.jpg",
     "inStock": true,
     "stockCount": 2,
@@ -137,45 +137,45 @@ const PRODUCTS = [
   },
   {
     "id": "prod-006",
-    "slug": "orgu-atki-bere-set",
+    "slug": "orgu-toka-bandana-seti",
     "name": {
-      "tr": "Örgü Atkı-Bere Set",
-      "en": "Knitted Scarf-Beanie Set"
+      "tr": "Örgü Toka & Bandana Seti",
+      "en": "Crochet Hair Clip & Headband Set"
     },
     "description": {
-      "tr": "Uyumlu renklerde el örgüsü atkı ve bere seti. Kışın en şık aksesuar kombinasyonu, hediye için de ideal.",
-      "en": "A hand-knitted scarf and beanie set in matching colors. The most stylish winter accessory combination, also ideal as a gift."
+      "tr": "Uyumlu renklerde el yapımı örgü toka ve bandana seti. Günlük kullanımda saçınıza şık ve sevimli bir dokunuş.",
+      "en": "Handmade crochet hair clip and headband set in matching colors."
     },
-    "price": 400,
+    "price": 120,
     "currency": "TL",
-    "category": "accessory",
+    "category": "sacAksesuar",
     "image": "public/images/products/product-6.jpg",
     "inStock": true,
-    "stockCount": 4,
+    "stockCount": 10,
     "materials": {
-      "tr": "Yumuşak Akrilik-Yün Karışım İplik",
-      "en": "Soft Acrylic-Wool Blend Yarn"
+      "tr": "Yumuşak Pamuklu İplik, Çıt Çıt Toka",
+      "en": "Soft Cotton Yarn, Snap Clip"
     },
     "dimensions": {
-      "tr": "Atkı: 180 cm x 25 cm, Bere: Standart Beden",
-      "en": "Scarf: 180 cm x 25 cm, Beanie: Standard Size"
+      "tr": "Standart Beden",
+      "en": "Standard Size"
     },
     "featured": false
   },
   {
     "id": "prod-007",
-    "slug": "tig-isi-canta",
+    "slug": "tig-isi-canta-cuzdan",
     "name": {
-      "tr": "Tığ İşi Çanta",
-      "en": "Crochet Bag"
+      "tr": "Tığ İşi Çanta & Cüzdan Seti",
+      "en": "Crochet Bag & Purse Set"
     },
     "description": {
-      "tr": "Şık ve dayanıklı tığ işi el çantası. Günlük kullanım için ideal boyutta, doğal renk tonlarında.",
-      "en": "A stylish and durable crochet handbag. Perfectly sized for daily use, in natural color tones."
+      "tr": "Şık ve dayanıklı tığ işi el çantası ve cüzdan. Günlük kullanım için ideal boyutta, doğal renk tonlarında.",
+      "en": "A stylish and durable crochet handbag and matching purse. Perfectly sized for daily use."
     },
     "price": 450,
     "currency": "TL",
-    "category": "crochet",
+    "category": "cantaCuzdan",
     "image": "public/images/products/product-7.jpg",
     "inStock": true,
     "stockCount": 3,
@@ -191,28 +191,55 @@ const PRODUCTS = [
   },
   {
     "id": "prod-008",
-    "slug": "orgu-bebek-yelegi",
+    "slug": "amigurumi-anahtarlik",
     "name": {
-      "tr": "Örgü Bebek Yeleği",
-      "en": "Knitted Baby Vest"
+      "tr": "Sevimli Figür Örgü Anahtarlık",
+      "en": "Cute Figure Crochet Keychain"
     },
     "description": {
-      "tr": "Minik bebekler için yumuşacık el örgüsü yelek. Nefes alan doğal ipliklerle örülmüş, düğme detaylı.",
-      "en": "A super soft hand-knitted vest for little babies. Made with breathable natural yarns, with button details."
+      "tr": "Çanta ve anahtarlarınız için el yapımı sevimli amigurumi anahtarlık. Harika bir hediye seçeneği.",
+      "en": "Handmade cute amigurumi keychain for your bag and keys."
+    },
+    "price": 85,
+    "currency": "TL",
+    "category": "anahtarlik",
+    "image": "public/images/products/product-8.jpg",
+    "inStock": true,
+    "stockCount": 15,
+    "materials": {
+      "tr": "Pamuklu İplik, Metal Anahtarlık Halka",
+      "en": "Cotton Yarn, Metal Ring"
+    },
+    "dimensions": {
+      "tr": "8 cm boyunda",
+      "en": "8 cm tall"
+    },
+    "featured": true
+  },
+  {
+    "id": "prod-009",
+    "slug": "orgu-bebek-yelegi",
+    "name": {
+      "tr": "El Örgüsü Bebek Yeleği",
+      "en": "Hand Knitted Baby Vest"
+    },
+    "description": {
+      "tr": "Minik bebekler için yumuşacık el örgüsü yelek. Nefes alan doğal ipliklerle örülmüş, ahşap düğme detaylı.",
+      "en": "A super soft hand-knitted vest for little babies. Made with breathable natural yarns, with wooden buttons."
     },
     "price": 250,
     "currency": "TL",
-    "category": "knitting",
+    "category": "giyim",
     "image": "public/images/products/product-8.jpg",
-    "inStock": false,
-    "stockCount": 0,
+    "inStock": true,
+    "stockCount": 4,
     "materials": {
       "tr": "%100 Bebek Pamuğu",
       "en": "100% Baby Cotton"
     },
     "dimensions": {
-      "tr": "0-6 Ay Beden",
-      "en": "0-6 Months Size"
+      "tr": "0-12 Ay Beden",
+      "en": "0-12 Months Size"
     },
     "featured": false
   }
@@ -583,10 +610,13 @@ const TRANSLATIONS = {
       "featuredTitle": "Öne Çıkan Ürünler",
       "featuredSubtitle": "En beğenilen el yapımı ürünlerimiz",
       "filterAll": "Tümü",
-      "filterKnitting": "Örgü",
-      "filterCrochet": "Tığ İşi",
-      "filterAmigurumi": "Amigurumi",
-      "filterAccessory": "Aksesuar",
+      "filterAmigurumi": "🧸 Amigurumi",
+      "filterGiyim": "🧥 Hırka & Yelek",
+      "filterCantaCuzdan": "👜 Çanta & Cüzdan",
+      "filterSacAksesuar": "🌸 Toka & Bandana",
+      "filterAnahtarlik": "🔑 Anahtarlık",
+      "filterPunch": "🖼️ Punch Nakışı",
+      "filterDantel": "🧵 Dantel",
       "filterWishlist": "❤️ Favorilerim",
       "inStock": "Stokta",
       "lowStock": "Son Birkaç Ürün",
@@ -743,10 +773,13 @@ const TRANSLATIONS = {
       "featuredTitle": "Featured Products",
       "featuredSubtitle": "Our most loved handmade creations",
       "filterAll": "All",
-      "filterKnitting": "Knitting",
-      "filterCrochet": "Crochet",
-      "filterAmigurumi": "Amigurumi",
-      "filterAccessory": "Accessory",
+      "filterAmigurumi": "🧸 Amigurumi",
+      "filterGiyim": "🧥 Cardigans & Vests",
+      "filterCantaCuzdan": "👜 Bags & Purses",
+      "filterSacAksesuar": "🌸 Hair Accessories",
+      "filterAnahtarlik": "🔑 Keychains",
+      "filterPunch": "🖼️ Punch Needle",
+      "filterDantel": "🧵 Lace & Crafts",
       "filterWishlist": "❤️ Favorites",
       "inStock": "In Stock",
       "lowStock": "Only a Few Left",

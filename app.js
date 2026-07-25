@@ -349,11 +349,11 @@ function initProductFilters() {
   if (!filterRoot) return;
 
   const dict = TRANSLATIONS[currentLang];
-  const categories = ['all', 'knitting', 'crochet', 'amigurumi', 'accessory', 'wishlist'];
+  const categories = ['all', 'amigurumi', 'giyim', 'cantaCuzdan', 'sacAksesuar', 'anahtarlik', 'punch', 'dantel', 'wishlist'];
 
   filterRoot.innerHTML = categories.map(cat => {
     const labelKey = 'filter' + cat.charAt(0).toUpperCase() + cat.slice(1);
-    const label = dict.products[labelKey];
+    const label = dict.products[labelKey] || cat;
     return `
       <button class="filter-btn ${activeCategory === cat ? 'filter-btn-active' : ''}" onclick="filterCategory('${cat}')">
         ${label}
